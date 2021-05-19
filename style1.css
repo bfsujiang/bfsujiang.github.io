@@ -1,0 +1,119 @@
+/*HOME*/
+body {
+    background-color:silver;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+  }
+p {
+    color:black;
+    font-size: 15px;
+}
+a{
+    color:bisque;
+    text-decoration:none; 
+    position:static; 
+    text-align:center;
+}
+.h1{
+    color: bisque;
+    text-align: center;
+    font-family:STxinwei;
+    font-size:400%;
+    margin-top:100px;
+}
+
+/*导航条设置*/
+.nav{
+    display: block;
+    width: 600px;
+    height: 50px;
+    font-family: kaiti;
+    line-height: 50px;
+    background-color: rgb(88, 35, 10);
+    color: bisque;
+    font-size: 32px;
+    text-align:center;
+    margin-block-start: 10px;
+}
+.nav a:hover{
+    background: cornflowerblue;
+    color:ivory
+}
+/*分隔条*/
+.solid{border-style: solid;
+    color:rgb(88, 35, 10);
+    background-color: rgb(88, 35, 10);
+    padding:5px;
+}
+/*分区*/
+#nav {
+    line-height:25px;
+    background-color:dimgrey;
+    height:325px;
+    width:200px;
+    float:left;
+    padding:20px; 
+    position:relative;
+}
+#nav2 {
+    line-height:25px;
+    background: rgba(87, 88, 87, 0.6);
+    height:325px;
+    width:200px;
+    float:left;
+    padding:20px; 
+}
+#section {
+    line-height:25px;
+    width:800px;
+    float:left;
+    padding:5px; 
+    text-indent: 20px;
+}
+#section2 {
+    line-height:25px;
+    width:800px;
+    float:left;
+    padding:5px; 
+    text-indent: 20px;
+    background: rgba(194, 196, 194, 0.6);
+}
+#footer {
+    background-color:rgb(88, 35, 10);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:px; 
+}
+.arrow{
+    border: 9px solid transparent;
+    border-bottom-color: #700404;
+    width: 0px;
+    height: 0px;
+    top:0px
+}
+.stick{
+    width: 8px;
+    height: 14px;
+    border-radius: 1px;
+    background-color: #700404;
+    top:15px;
+}
+#back_top div{
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+}
+#back_top{
+    background-color: #dddddd;
+    height: 38px;
+    width: 38px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    display: none;
+}
